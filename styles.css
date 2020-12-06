@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #2DD4BF;
+    --secondary-color:#134E4A;
+    --hover-fade-color:#CCFBF1;
+}
+
+body {
+    font-family: 'Merienda', cursive;
+    font-size: larger;  
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    text-align: center;
+    padding: 0.5rem 0rem;
+    background-color: var(--primary-color);    
+}
+
+/* two-column layout */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  
+/* image */
+.img {
+    padding: 1rem;
+    text-align: center; 
+}
+
+/* text input */
+.txt-input {
+    font: inherit;
+    margin: 2.5rem 0rem;
+    width: 70%;
+    height: 120px;
+    resize: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.txt-input:focus {
+    outline: none;
+    border-radius: 0.5rem;
+    border-color: var(--secondary-color);    
+}
+
+/* button */
+#trans-button {
+    background-color: var(--primary-color);
+    font: inherit;
+    outline: none;
+    border-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+#clear-button {
+    background-color: var(--primary-color);
+    font: inherit;
+    outline: none;
+    margin-left: 1rem;
+    border-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+/* translated output */
+#output-div {
+    font:inherit;
+    margin: 2rem 0rem;
+    padding: 2rem 0.5rem;
+    width: 68%;
+    height: 30px;
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    overflow: scroll;
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+}
+
+.footer .footer-text {
+    font-size: medium;
+    text-align: center;
+    padding: 1.35rem;
+    margin: auto;
+    max-width: 700px;
+}
+
+/* footer social list */
+.list-non-bullet {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 1px;
+    margin-block-end: 0rem;
+}
+
+.footer i{
+    color: var(--secondary-color);
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.footer i:hover {
+    color: var(--hover-fade-color);
+    transition: all 0.2s ease-in-out;
+}
