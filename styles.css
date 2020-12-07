@@ -26,6 +26,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center; 
+    
   }
   
   .column {
@@ -33,13 +35,15 @@ body {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    justify-content: center; 
   }
 
   
 /* image */
 .img {
+    display: flex;
     padding: 1rem;
-    text-align: center; 
+    justify-content: center; 
 }
 
 /* text input */
