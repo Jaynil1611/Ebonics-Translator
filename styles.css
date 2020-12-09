@@ -9,15 +9,22 @@
 body {
     font-family: 'Merienda', cursive;
     font-size: larger;  
-    margin: 0;
+    margin: auto;
     box-sizing: border-box;
 }
+
+ p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+ }
 
 /* header */
 .header {
     text-align: center;
-    padding: 0.5rem 0rem;
-    background-color: var(--primary-color);    
+    padding:  1rem;
+    font-weight: bolder;
+    font-size: 38px;
+    background-color: var(--primary-color);
 }
 
 /* two-column layout */
@@ -26,8 +33,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: center; 
-    
+    justify-content: center;     
   }
   
   .column {
@@ -37,19 +43,23 @@ body {
     flex: 1;
     justify-content: center; 
   }
-
-  
+ 
 /* image */
+img {
+    width: 60%;
+    height: 100%;  
+}
+
 .img {
     display: flex;
-    padding: 1rem;
+    margin: 1.5rem;
     justify-content: center; 
 }
 
 /* text input */
 .txt-input {
     font: inherit;
-    margin: 2.5rem 0rem;
+    margin: 1.5rem 0rem;
     width: 70%;
     height: 120px;
     resize: none;
@@ -63,6 +73,11 @@ body {
     border-color: var(--secondary-color);    
 }
 
+.input-txt {
+    display: flex;
+
+} 
+
 /* button */
 #trans-button {
     background-color: var(--primary-color);
@@ -70,23 +85,27 @@ body {
     outline: none;
     border-color: var(--secondary-color);
     border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem;
+    max-width: 50%;
+    margin: 0.5rem 0rem;
+    overflow: auto;
 }
 
 #clear-button {
     background-color: var(--primary-color);
     font: inherit;
     outline: none;
-    margin-left: 1rem;
+    padding: 0.5rem 0rem;
     border-color: var(--secondary-color);
     border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
+    max-width: 50%;
+    margin: 1rem 0rem;
 }
 
 /* translated output */
 #output-div {
     font:inherit;
-    margin: 2rem 0rem;
+    margin: 1.5rem 0rem;
     padding: 2rem 0.5rem;
     width: 68%;
     height: 30px;
@@ -95,11 +114,15 @@ body {
     overflow: scroll;
 }
 
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
 /* footer */
 .footer {
     background-color: var(--primary-color);
-    width: 100%;
-    height: 100%;
+    margin: auto;
 }
 
 .footer .footer-text {
@@ -114,7 +137,7 @@ body {
 .list-non-bullet {
     list-style-type: none;
     padding-inline-start: 0px;
-    margin-block-start: 1px;
+    margin-block-start: 15px;
     margin-block-end: 0rem;
 }
 
