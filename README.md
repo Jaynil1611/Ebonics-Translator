@@ -3,7 +3,7 @@
 
 ## Introduction
 A translator which converts English to Ebonics. Ebnoics (or African American Vernacular English) is a variety (dialect, ethnolect and sociolect) of American English.
-It is build using `HTML, CSS, JavaScript, VanillaJS`. The [funtranslations](https://funtranslations.com/api/ebonics) API is employed to convert English to Ebonics language.
+It is build using `HTML, CSS, JavaScript, VanillaJS`. The [funtranslations](https://funtranslations.com/) API is employed to convert English to Ebonics language.
 
 ## API Information
 You can check the API here 👉 [funtranslations-api](https://funtranslations.com/api/ebonics)
