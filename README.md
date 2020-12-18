@@ -18,7 +18,6 @@ View the live demo of the application here 👉  [Ebonics-Translator](https://ja
 - HTML
 - CSS
 - JavaSript
-- React JS
 - Funtranslations API
 
 ## Run Application
